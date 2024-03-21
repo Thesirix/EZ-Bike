@@ -4,32 +4,7 @@ Par les : Spaciocatographes de la Salspareil
 
 --Déploiement de l'applications:--
 
-Structure des fichiers
- e-z-bike/
-├── assets/
-│
-├── index.html
-├── modeEmploi.html
-├── trouver-un-velib.html
-├── calculateur.html
-├── contact.html
-├── comingSoon.html
-├── error404.html
-│
-├── css/
-│   ├── common.css
-│   └── contact.css
-│
-├── js/
-│   ├── common.js
-│   ├── carousel.js
-│   ├── compteRebours.js
-│   └── contact.js
-│   └── form.js
-│   └── trouver-un-velib.js
-│
-└── image/
-    └── etc...
+
 HTML :
 Chaque fichier HTML (index.html, modeEmploi.html, trouver-un-velib.html, calculateur.html, contact.html, comingSoon.html, error404.html) contiendrait le contenu de la page respective avec les balises HTML nécessaires.
 
