@@ -10,6 +10,8 @@ Par les Spaciocatographes de la Salspareil :
 
 ## Déploiement de l'application
 
+![bike](./ezbike.gif)
+
 
 ### Description des fichiers
 
