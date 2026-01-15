@@ -1,4 +1,4 @@
-# 🚲 e-z-bike Project
+# 🚲 EZ-Bike
 
 ## 🚀 Application Deployment
 
