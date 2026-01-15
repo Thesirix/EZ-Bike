@@ -1,57 +1,55 @@
-# Projet e-z-bike
+# 🚲 e-z-bike Project
 
-## Contributeurs
-Par les Spaciocatographes de la Salspareil :
-- Renaud Mercier
-- Manon Drozdzowski
-- Emmanuelle Sanchez
-- Faysoll Da Silva
-- Jérôme Gavino
-
-## Déploiement de l'application
+## 🚀 Application Deployment
 
 ![bike](./ezbike.gif)
 
+### 📂 File Description
 
-### Description des fichiers
+#### 📄 HTML
 
-#### HTML
-Chaque fichier HTML (index.html, modeEmploi.html, trouver-un-velib.html, calculateur.html, contact.html, comingSoon.html, error404.html) contiendrait le contenu de la page respective avec les balises HTML nécessaires.
+Each HTML file (`index.html`, `modeEmploi.html`, `trouver-un-velib.html`, `calculateur.html`, `contact.html`, `comingSoon.html`, `error404.html`) contains the content for its respective page with the necessary HTML tags.
 
-#### CSS
-- `common.css` : pour les styles généraux du site.
-- `contact.css` : pour les styles spécifiques à la version responsive du site.
+#### 🎨 CSS
 
-#### JavaScript
-- `common.js` : pour les fonctionnalités générales du site.
-- `carousel.js` : pour implémenter le carousel dans la page mode d'emploi.
-- `trouver-un-velib.js` : pour gérer la recherche de stations sur la carte dans la page trouver un vélib.
-- `contact.js` : pour la validation des formulaires dans la page contact.
-- `form.js` : pour le calculateur d'émissions de CO2.
-- `compteRebours.js` : pour le compte à rebours.
+- `common.css`: For general site styles.
+- `contact.css`: For specific styles related to the responsive version of the site.
 
-### Pages principales
+#### ⚡ JavaScript
 
-#### Page d'accueil (index.html)
-La page d'accueil comporterait deux boutons redirigeant vers les pages `calculateur.html` et `trouver-un-velib.html`, ainsi que les sections "Comment ça marche ?" et "Se rendre à la station".
+- `common.js`: For general site functionalities.
+- `carousel.js`: To implement the carousel on the User Guide page.
+- `trouver-un-velib.js`: To manage station search on the map for the "Find a Bike" page.
+- `contact.js`: For form validation on the Contact page.
+- `form.js`: For the CO2 emissions calculator.
+- `compteRebours.js`: For the countdown timer.
 
-#### Barre de Navigation et Menu Burger
-La barre de navigation en haut de chaque page inclurait des liens vers toutes les pages du site, y compris "Accueil", "Mode d'emploi", "Trouver un vélib", "Calculateur", "Contact" et "Coming Soon". Le menu burger version responsive serait également présent.
+### 🌐 Main Pages
 
-#### Page Calculateur (calculateur.html)
-La page calculateur comporterait un formulaire où l'utilisateur pourrait entrer le nombre de kilomètres parcourus par jour et le nombre de jours travaillés par semaine. Un pop-up afficherait ensuite le niveau de CO2 pour les trajets domicile-travail en voiture et le résultat en kg des niveaux de rejet de CO2 par mois.
+#### 🏠 Home Page (index.html)
 
-#### Page Trouver un Vélib (trouver-un-velib.html)
-Cette page inclurait une barre de recherche avec une carte interactive permettant de trouver des stations de vélib en fonction du nom tapé par l'utilisateur et de la localisation des stations renseignées. Les icônes sur la carte auraient la forme d'une feuille pour refléter le caractère éco-responsable du site.
+The homepage includes two buttons redirecting to the `calculateur.html` and `trouver-un-velib.html` pages, as well as "How it works?" and "Go to station" sections.
 
-#### Page Contact (contact.html)
-Sur cette page, les utilisateurs pourraient saisir leur nom, prénom, numéro de téléphone, e-mail et un message. Des expressions régulières JavaScript seraient utilisées pour valider chaque catégorie liée au formulaire. Un bouton d'envoi permettrait de soumettre le formulaire.
+#### 🍔 Navigation Bar & Burger Menu
 
-#### Page Coming Soon (comingSoon.html)
-Une page simple avec un compte à rebours défini pour l'arrivée d'une nouvelle page ou fonctionnalité.
+The top navigation bar on every page includes links to all site pages: "Home", "User Guide", "Find a Bike", "Calculator", "Contact", and "Coming Soon". A responsive burger menu is also available.
 
-#### Page d'Erreur 404 (error404.html)
-Une page d'erreur 404 pour la redirection si aucune page n'est trouvée.
+#### 🧮 Calculator Page (calculateur.html)
 
-## Repositories GitHub
-Tous les fichiers du projet seraient mis en repositories sur GitHub pour faciliter la collaboration et le partage du code.
+The calculator page features a form where users can enter kilometers traveled per day and workdays per week. A pop-up displays CO2 levels for car commuting and the result in kg of CO2 emissions rejected per month.
+
+#### 🗺️ Find a Bike Page (trouver-un-velib.html)
+
+This page includes a search bar with an interactive map to find Velib stations based on user input and station location. Map icons are shaped like leaves 🍃 to reflect the site's eco-friendly nature.
+
+#### 📧 Contact Page (contact.html)
+
+On this page, users can enter their first name, last name, phone number, email, and a message. JavaScript regular expressions (Regex) are used to validate each form category. A submit button allows sending the form.
+
+#### ⏳ Coming Soon Page (comingSoon.html)
+
+A simple page with a countdown timer set for the arrival of a new page or feature.
+
+#### 🚫 404 Error Page (error404.html)
+
+A 404 error page for redirection if no page is found.
