@@ -19,7 +19,7 @@ btnCalcul.addEventListener("click", function(e){
         resultText.innerHTML = text;
     }
 
-    let allNumber = /^[0-9]+$/;
+    let allNumber = /^\d+$/;
     if (distanceValue.match(allNumber)) {
         calcul();
     } else {

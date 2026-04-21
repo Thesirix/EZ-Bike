@@ -262,15 +262,6 @@
   margin-right: 15px;
 }
 
-.link-footer {
-  color: #009961;
-  text-decoration: none;
-}
-
-.link-footer:hover {
-  font-weight: 700;
-}
-
 /* ANCHOR - HR */
 
 .hr {
@@ -434,10 +425,6 @@
   margin: 0 2em;
 }
 
-.mx-2 {
-  margin: 0 2em;
-}
-
 /* Rajouté par Emmanuelle le 05/03/24 */
 
 .mw-800 {
@@ -450,10 +437,6 @@
 }
 
 /* ANCHOR - PADDING */
-
-.w-100{
-width: 100px;
-}
 
 .p-8px {
   padding: 8px;
@@ -527,10 +510,6 @@ width: 100px;
 
 .as-c {
   align-self: center;
-}
-
-.jc-sb {
-  justify-content: space-between;
 }
 
 .jc-sb {
@@ -678,28 +657,6 @@ width: 100px;
 
 /* ANCHOR CONTACT */
 
-/* textarea,
-select,
-input:not([type="checkbox"],
-  [type="date"],
-  [type="color"],
-  [type="radio"],
-  [type="submit"],
-  [type="reset"],
-  [type="button"]) {
-  display: inline-block;
-  width: 100%;
-  padding: 0.5rem;
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  border-bottom: 1px solid var(--darker-60);
-  background-color: var(--lighter-30);
-  border-radius: 4px;
-  color: var(--black);
-  transition: box-shadow 0.3s ease;
-} */
-
 textarea::placeholder,
 select::placeholder,
 input:not(
@@ -743,8 +700,8 @@ select {
   background-repeat: no-repeat;
   background-position: 99% center;
   background-size: 1.25rem;
-  padding-right: 2rem;
   padding: 0.5rem;
+  padding-right: 2rem;
   border-radius: 4px;
   border-bottom: 2px solid var(--darker-30);
   color: var(--dark);
@@ -822,11 +779,6 @@ ____________________________________________caculateur css______________________
 }
 
 /* contract.css     __________________________________________________________________________________ */
-
-/* * {
-    border: 1px dashed rgb(134, 67, 67);
-    background-color: rgba(0, 0, 0, 0.1);
-} */
 
 #form-style {
   padding: 20px;
@@ -978,7 +930,6 @@ height: 350px;
   justify-content: space-evenly;
   align-items: center;
   align-content: stretch;
-  position: relative;
 }
 
 .btn.active {
@@ -1107,11 +1058,9 @@ padding-left: -100px;
   position: relative;
   display: inline-block;
   margin: 19px 0px 0px 0px;
-  /* top: 256.301px; */
   z-index: 3;
   width: 100%;
   line-height: 1.2em;
-  display: inline-block;
 }
 
 .nuage.btn {
@@ -1159,7 +1108,7 @@ hr:after {
   height: 120px;
 
   background: #fff;
-  background: linear-gradient(top, #fff 100%);
+  background: linear-gradient(to bottom, #fff 100%);
   background: -webkit-linear-gradient(top, #fff 100%);
   background: -moz-linear-gradient(top, #fff 100%);
   background: -ms-linear-gradient(top, #fff 100%);
@@ -1256,7 +1205,7 @@ hr:after {
 
 .x4 {
   left: 470px;
-  botttom: 20px;
+  bottom: 20px;
 
   -webkit-transform: scale(0.75);
   -moz-transform: scale(0.75);
@@ -1333,8 +1282,7 @@ hr:after {
   transition: all.6s ease;
 }
 
-/* ANCHOR BTN TOP     
-          }*/
+/* ANCHOR BTN TOP */
 .btn_top {
   display: flex;
   justify-content: flex-end;
@@ -1347,8 +1295,7 @@ hr:after {
   height: 700px;
 }
 
-/* ANCHOR Search Titre     
-          }*/
+/* ANCHOR Search Titre */
 .Recherche {
   display: flex;
   flex-flow: row wrap;
@@ -1380,7 +1327,7 @@ hr:after {
     margin: 5px 0;
     font-size: 14px;
     -webkit-appearance: none;
-    font-family: "Mukta Malar";
+    font-family: "Mukta Malar", sans-serif;
     transition: all 0.6s ease;
     cursor: pointer;
     color: #000000;
@@ -1541,13 +1488,11 @@ body {
   }
 
   a {
-    /* text-decoration: none; */
     color: var(--accent);
     font-weight: 600;
   }
 
   a:hover {
-    /* text-decoration: none; */
     color: var(--theme1);
   }
 

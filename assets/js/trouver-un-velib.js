@@ -4,13 +4,13 @@ document.addEventListener('DOMContentLoaded', function () {
     const http = "https://api.omega.fifteen.eu/gbfs/2.2/marseille/en/";
     let search = document.querySelector('.search');
     let btn = document.querySelector("button");
-    var scrollElm = document.scrollingElement;
+    const scrollElm = document.scrollingElement;
 
     btn.onclick = function () {
         scrollElm.scrollTop = 0;
       };
 
-    var LeafIcon = L.Icon.extend({
+    const LeafIcon = L.Icon.extend({
         options: {
             shadowUrl: "image/leaf-shadow.png",
             iconSize: [30, 50],
@@ -21,11 +21,11 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 
-    var greenIcon = new LeafIcon({ iconUrl: 'image/leaf-green.png' }),
-        orangeIcon = new LeafIcon({ iconUrl: 'image/leaf-orange.png' }),
-        redIcon = new LeafIcon({ iconUrl: 'image/leaf-red.png' });
+    const greenIcon = new LeafIcon({ iconUrl: 'image/leaf-green.png' });
+    const orangeIcon = new LeafIcon({ iconUrl: 'image/leaf-orange.png' });
+    const redIcon = new LeafIcon({ iconUrl: 'image/leaf-red.png' });
 
-    var map = L.map('map').setView([43.300000, 5.400000], 13);
+    const map = L.map('map').setView([43.300000, 5.400000], 13);
 
     L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
         maxZoom: 19,
